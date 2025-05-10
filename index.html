@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Remote Jobs for USA Residents</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #f0f8ff, #ffffff);
+      color: #333;
+    }
+    header {
+      background-color: #002147;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    p, li {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input[type="text"], input[type="tel"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background-color: #007acc;
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+    button:hover {
+      background-color: #005a99;
+    }
+    .whatsapp-btn {
+      background-color: #25d366;
+      margin-top: 20px;
+      text-align: center;
+      padding: 12px;
+      border-radius: 6px;
+    }
+    .whatsapp-btn a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      margin-top: 40px;
+    }
+    .countdown {
+      font-size: 24px;
+      color: red;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .benefits, .testimonials, .faq {
+      background: #f7faff;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .benefits ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    .testimonial {
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Remote Jobs for USA Residents</h1>
+</header>
+
+<div class="container">
+  <img src="https://via.placeholder.com/900x300?text=Start+Working+From+Home+Today!" alt="USA Work From Home">
+
+  <div class="countdown">
+    Hurry! Limited positions available. Offer ends in <span id="timer">05:00</span> minutes!
+  </div>
+
+  <p>Work remotely with flexible hours. No prior experience needed. Apply now to get started!</p>
+
+  <form onsubmit="submitLead(); return false;">
+    <input type="text" id="name" placeholder="Your Full Name" required />
+    <input type="tel" id="phone" placeholder="Mobile Number" required />
+    <button type="submit">Submit Application</button>
+  </form>
+
+  <div class="whatsapp-btn">
+    <a href="https://wa.me/11234567890?text=I'm%20interested%20in%20the%20USA%20work%20from%20home%20job%20opportunity!" target="_blank">
+      📲 Message us on WhatsApp
+    </a>
+  </div>
+
+  <div class="section benefits">
+    <h2>Why Choose This Opportunity?</h2>
+    <ul>
+      <li>✅ Weekly Payments</li>
+      <li>✅ No Experience Needed</li>
+      <li>✅ 100% Remote Work</li>
+      <li>✅ Flexible Schedule</li>
+      <li>✅ Trusted by 20,000+ users</li>
+    </ul>
+  </div>
+
+  <div class="section testimonials">
+    <h2>What Our Users Say</h2>
+    <div class="testimonial"><strong>Sarah M.:</strong> "I started earning $400/week from my home in Texas. It's real!"</div>
+    <div class="testimonial"><strong>John D.:</strong> "This changed my life. Great opportunity for anyone!"</div>
+  </div>
+
+  <div class="section faq">
+    <h2>Frequently Asked Questions</h2>
+    <p><strong>Q:</strong> Do I need experience?<br><strong>A:</strong> No! Anyone can apply.</p>
+    <p><strong>Q:</strong> Is this remote?<br><strong>A:</strong> Yes, 100% work from home.</p>
+    <p><strong>Q:</strong> How do I get paid?<br><strong>A:</strong> Weekly via PayPal or bank transfer.</p>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 USA Remote Jobs. All Rights Reserved.
+</footer>
+
+<script>
+  function submitLead() {
+    const name = document.getElementById('name').value;
+    alert("Thank you, " + name + "! Redirecting you to the offer...");
+    window.location.href = "https://go4affm.com/c/?p=45991&o=19950&s1=sidratul";
+  }
+
+  let duration = 300;
+  const timerDisplay = document.getElementById('timer');
+  setInterval(() => {
+    if (duration > 0) {
+      duration--;
+      const mins = String(Math.floor(duration / 60)).padStart(2, '0');
+      const secs = String(duration % 60).padStart(2, '0');
+      timerDisplay.textContent = `${mins}:${secs}`;
+    }
+  }, 1000);
+</script>
+
+</body>
+</html>
